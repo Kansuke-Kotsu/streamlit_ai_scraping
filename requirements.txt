@@ -1,2 +1,6 @@
-langchain-google-genai
+google-generativeai 
 streamlit
+requests
+Beautifulsoup4
+tiktoken
+urllib3
