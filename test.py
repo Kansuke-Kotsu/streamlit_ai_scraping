@@ -10,8 +10,7 @@ import tiktoken
 
 def get_information(html):
     # API Keyをセット
-    #genai.configure(api_key=st.secrets["gemini_key"])
-    genai.configure(api_key= "AIzaSyDOkxdeIGiGBWnn93c-znm89dLZ5yf0flM")
+    genai.configure(api_key=st.secrets["gemini_key"])
     trimmed_html = trim_html_content(html_content=html)
     # プロンプトの作成
     prompt = f"""これらはあるECサイトのHTML文です。
